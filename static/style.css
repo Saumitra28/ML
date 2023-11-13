@@ -1,12 +1,24 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+* {
+  font-family: Georgia, serif;
+}
 body {
   font-family: "Open Sans", sans-serif;
-  background-color: black;
+  background-color: #331d2c;
   color: #fff;
   font-size: 16px;
   text-align: center;
   letter-spacing: 1.2px;
   overflow-x: hidden;
+}
+textarea {
+  background-color: #3f2e3e;
+  color: #a78295;
+  outline: none;
+  border: none;
+  padding: 12px 23px;
+  border-radius: 12px;
+  resize: none;
 }
 /* Animation for Fake News */
 @keyframes fakeNewsAnimation {
@@ -48,7 +60,7 @@ h2.fake-news {
 h2.real-news {
   animation: realNewsAnimation 2s infinite;
 }
-.login{
+.login {
   margin-top: 10%;
 }
 /* Add these styles for the Continue Application button */
